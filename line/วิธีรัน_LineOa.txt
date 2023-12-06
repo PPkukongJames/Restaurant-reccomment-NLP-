@@ -1,0 +1,9 @@
+1. เข้า Line Developer เพื่อสมัครใช้งาน Line API และ Line OA
+
+2. ตั้ง domain ในส่วนของ  webhook url ที่จะเอาไว้สำหรับรับ request จากผู้ใช้ผ่าน Line
+
+3. นำ Channel_Access_Token และ Channel_Secret มาใส่ในไฟล์ key.json
+
+4. นำ โฟลเดอร์ line เข้า VScode จากนั้นเปิดไปที่ app.py และรัน
+
+ปล. ในส่วนของ domain ใครทำไม่มีสามารถศึกษาการใช้งาน ngrok เพื่อใช้เป็น domain ได้
